@@ -3,12 +3,12 @@ import { Navbar } from "./Component/Navbar";
 import { Items } from "./Component/Items";
 import { Progressor } from "./Component/Progressor";
 import { Banner } from "./Component/Banner";
-import { FloatingImageContentBlock } from "./Component/Card";
+import Card from "./Component/Card";
 import { Footer } from "./Component/Footer";
 import Productlist from "./Component/Productlist";
 import SpecialOffers from "./Component/Offer";
 import { Reservation } from "./Component/Reservation";
-import Menu from "./Component/Menuitems";
+import Menu from "./Component/Menu";
 
 
 export default function App() {
@@ -21,9 +21,7 @@ export default function App() {
 
 <Menu />
 <SpecialOffers />
- <FloatingImageContentBlock/>
 
-<Reservation />
 <Footer />
 
   </div>)
